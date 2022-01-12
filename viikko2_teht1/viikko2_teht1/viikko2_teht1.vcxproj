@@ -141,11 +141,11 @@
   <ItemGroup>
     <ClCompile Include="Harjoittelija.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Oiskelija.cpp" />
+    <ClCompile Include="Opiskelija.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Harjoittelija.h" />
-    <ClInclude Include="Oiskelija.h" />
+    <ClInclude Include="Opiskelija.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

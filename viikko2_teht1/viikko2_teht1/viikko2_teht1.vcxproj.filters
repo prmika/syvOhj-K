@@ -18,18 +18,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Oiskelija.cpp">
+    <ClCompile Include="Harjoittelija.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Harjoittelija.cpp">
+    <ClCompile Include="Opiskelija.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Oiskelija.h">
+    <ClInclude Include="Harjoittelija.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Harjoittelija.h">
+    <ClInclude Include="Opiskelija.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
