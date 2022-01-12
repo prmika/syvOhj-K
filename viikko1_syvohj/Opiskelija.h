@@ -10,11 +10,15 @@ public:
 	void setNimi(string aNimi);
 	void SetOpiskelijanumero(string aOpiskelijanumero);
 	void setOpintopisteet(int aOpintopisteet);
+	string getNimi();
+	string getOpiskelijanumero();
+	int getOpintopisteet();
 
 	void tulostatiedot();
+
 private:
-	string mNimi = "tuntematon";
-	string mOpiskelijanumero = "000000";
+	string mNimi = "----";
+	string mOpiskelijanumero = "xxxxx";
 	int mOpintopisteet = 0;
 
 };

@@ -10,7 +10,16 @@ int main() {
 	Opiskelija* ville = new Opiskelija("Ville", "33445"); //new muistivaraukseen ja palauttaa muistiosoitteen
 	ville->tulostatiedot();
 
-	delete ville;
+	Opiskelija lyyli;
+	lyyli.tulostatiedot();
+	lyyli.setNimi("Lyyli");
+	lyyli.setOpintopisteet(100);
+	lyyli.SetOpiskelijanumero("99889");
+	lyyli.tulostatiedot();
+
+
+
+	delete ville;//tuhotaan ville musitista
 
 	return EXIT_SUCCESS;
-}
+}// kalle poistuu muistista tässä

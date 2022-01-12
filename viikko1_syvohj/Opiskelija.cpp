@@ -1,6 +1,8 @@
 #include "Opiskelija.h"
 #include <iostream>
 using namespace std;
+
+
 Opiskelija::Opiskelija()
 {
 	cout << "Opiskeljan oletusrakentaja" <<endl;
@@ -31,6 +33,22 @@ void Opiskelija::setOpintopisteet(int aOpintopisteet)
 {
 	mOpintopisteet = aOpintopisteet;
 }
+
+string Opiskelija::getNimi()
+{
+	return mNimi;
+}
+
+string Opiskelija::getOpiskelijanumero()
+{
+	return mOpiskelijanumero;
+}
+
+int Opiskelija::getOpintopisteet()
+{
+	return mOpintopisteet;
+}
+
 
 void Opiskelija::tulostatiedot()
 {
