@@ -17,6 +17,8 @@ int main() {
 	lyyli.SetOpiskelijanumero("99889");
 	lyyli.tulostatiedot();
 
+	Opiskelija* kaisa = new Opiskelija();
+	kasia->tulostatiedot();
 
 
 	delete ville;//tuhotaan ville musitista
