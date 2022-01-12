@@ -37,6 +37,7 @@ public class Opiskelija {
 	System.out.println("Nimi: " + mNimi );
  	System.out.println("Opiskelijanumero: " + mOpiskelijanumero); 
  	System.out.println("Opintopisteet: " + mOpintopisteet); 
-}
+
+	}
 
 }
