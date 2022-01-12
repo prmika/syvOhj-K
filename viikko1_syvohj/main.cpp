@@ -18,10 +18,10 @@ int main() {
 	lyyli.tulostatiedot();
 
 	Opiskelija* kaisa = new Opiskelija();
-	kasia->tulostatiedot();
+	kaisa->tulostatiedot();
 
 
 	delete ville;//tuhotaan ville musitista
 
 	return EXIT_SUCCESS;
-}// kalle poistuu muistista t‰ss‰
+}// kalle poistuu muistista t√§ss√§
