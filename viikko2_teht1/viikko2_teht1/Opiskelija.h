@@ -1,20 +1,27 @@
 #pragma once
+#include <iostream>
 #include <string>
 using namespace std;
 
 class Opiskelija {
 public:
 	Opiskelija();
-	Opiskelija(string aNimi, string aOpiskelijanumero);
-	~Opiskelija();
-	void setNimi(string aNimi);
-	void SetOpiskelijanumero(string aOpiskelijanumero);
+	Opiskelija(const string& aNimi,const string& aOpiskelijanumero);
+	virtual ~Opiskelija();
+	
+	void setNimi(const string& aNimi);
+	void SetOpiskelijanumero(const string& aOpiskelijanumero);
 	void setOpintopisteet(int aOpintopisteet);
-	string getNimi();
-	string getOpiskelijanumero();
-	int getOpintopisteet();
+	
+	string getNimi() const;
+	string getOpiskelijanumero() const;
+	int getOpintopisteet() const;
 
-	void tulostatiedot();
+
+
+	// virtual -avainsana tuo dynaamisen eli ajonaikaisesti katsotaan, löytyykö aliluokalta toteustus
+	// dynaaminen 
+	virtual void tulostaTiedot() const;
 
 private:
 	string mNimi = "----";

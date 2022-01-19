@@ -1,27 +1,19 @@
-﻿#include <iostream>
-#include "Opiskelija.h"
-using namespace std;
+﻿#include "Opiskelija.h"
+#include "Harjoittelija.h"
 
 int main() {
 
-	Opiskelija kalle = Opiskelija("Kalle", "12345");
-	kalle.tulostatiedot();
 
-	Opiskelija* ville = new Opiskelija("Ville", "33445"); //new muistivaraukseen ja palauttaa muistiosoitteen
-	ville->tulostatiedot();
+	Harjoittelija Kalle = Harjoittelija("Kalle", "12345", "Gofore", 2000);
+	Kalle.setOpintopisteet(105);
+	Kalle.tulostaTiedot();
+	
 
-	Opiskelija lyyli;
-	lyyli.tulostatiedot();
-	lyyli.setNimi("Lyyli");
-	lyyli.setOpintopisteet(100);
-	lyyli.SetOpiskelijanumero("99889");
-	lyyli.tulostatiedot();
-
-	Opiskelija* kaisa = new Opiskelija();
-	kaisa->tulostatiedot();
+	Opiskelija* essi = new Harjoittelija("Essi", "45567", "Vincit", 3500);
+	essi->tulostaTiedot();
 
 
-	delete ville;//tuhotaan ville musitista
+
 
 	return EXIT_SUCCESS;
 }// kalle poistuu muistista t�ss�
