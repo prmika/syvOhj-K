@@ -1,15 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.viikko2_teht2;
 
-/**
- *
- * @author maipp
- */
-public class Main {
-    public static void main(String[] args){
-        System.out.println("Helloworld!");
-    }
+public class Main{
+	public static void main( String[] args ){
+        Opiskelija lyyli = new Harjoittelija();
+	Opiskelija ville = new Harjoittelija("Ville", "12345", "Gofore", 2000);
+       
+        ville.tulostaTiedot();
+            System.out.println("----------------");
+        lyyli.tulostaTiedot();
+
+	//ei deleteä, roskienkeruu hoituu vapautuksen kun hoitaa
+	
+	}
 }
